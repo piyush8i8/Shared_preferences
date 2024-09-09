@@ -1,16 +1,14 @@
-# my_shared_preferences
+Flutter Shared Preferences Demo
+This project demonstrates the usage of Flutter's Shared Preferences to store and retrieve key-value pairs locally on a device. Shared Preferences is a simple and efficient way to persist small amounts of data in a Flutter app, such as user settings, app preferences, or any other lightweight data that needs to be retained across app sessions.
 
-A new Flutter project.
+Features
+Store and retrieve data using key-value pairs
+Support for primitive types such as strings, integers, doubles, booleans, and lists
+Persistent data storage even when the app is closed or restarted
+Simple interface for reading and writing preferences
+Usage
+To use this project as a reference, clone the repository, and explore the code to learn how to:
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Initialize and use SharedPreferences in Flutter
+Save data when certain actions are performed
+Retrieve data to maintain the state across app sessions
